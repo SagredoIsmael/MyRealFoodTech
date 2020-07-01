@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "31827033524",
+    "firebase_url": "https://myrealfoodtech-2390b.firebaseio.com",
+    "project_id": "myrealfoodtech-2390b",
+    "storage_bucket": "myrealfoodtech-2390b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31827033524:android:71678a69d143004de186e1",
+        "android_client_info": {
+          "package_name": "com.myrealfoodtech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31827033524-ork4p3es21ftbthvq43b9178qai11rcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOqNRDro-j0GA7VPgZS2g-kUsINBpQ-1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31827033524-ork4p3es21ftbthvq43b9178qai11rcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
