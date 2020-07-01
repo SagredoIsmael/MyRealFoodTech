@@ -9,7 +9,7 @@ export const firestore = firebase.firestore()
 
 export default () => {
   return (
-    <div style={{ flex: 1, backgroundColor: 'red' }}>
+    <div style={{ flex: 1, height: '4rem', width: '4rem', backgroundColor: 'red' }}>
 
     </div>
   )
