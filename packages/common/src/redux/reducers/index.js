@@ -3,7 +3,7 @@ import settings from './settings'
 import request from './requests'
 import user from './user'
 
-export const rootReducer = combineReducers({
+export default combineReducers({
   settings,
   request,
   user
