@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.18.1"
+  },
+  "scripts": {
+    "remove-modules": "rm -rf ./packages/commons/node_modules/ && rm -rf ./packages/web/node_modules/ && rm -rf ./packages/mobile/node_modules/ && yarn cache clean",
+    "ios": "cd packages/mobile && yarn ios && cd ../..",
+    "android": "cd packages/mobile && yarn android && cd ../..",
+    "web": "cd packages/web && yarn start && cd ../..",
+    "reinstall": "rm -rf node_modules yarn.lock && yarn cache clean && lerna bootstrap && cd packages/mobile/ios && pod deintegrate && pod install && cd ../../.."
+  }
+}
