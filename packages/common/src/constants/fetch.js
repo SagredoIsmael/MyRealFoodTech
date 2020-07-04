@@ -1,0 +1,7 @@
+export default {
+    /*Fetch Custom*/
+    REQUEST_STATUS_PENDING: 'PENDING',
+    REQUEST_STATUS_SUCCESS: 'SUCCESS',
+    REQUEST_STATUS_FAIL: 'FAIL',
+
+}
