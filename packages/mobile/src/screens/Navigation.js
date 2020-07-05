@@ -3,6 +3,9 @@ import NavigationWrapper from '@sagredoismael/navigation_rn'
 import { screens } from 'commons/src/constants/navigation'
 import colors from 'commons/src/constants/colors'
 import SignScreen from '../redux/containers/sign'
+import CreateTodosScreen from '../redux/containers/createTodos'
+import MyTodosScreen from '../redux/containers/myTodos'
+import OtherTodosScreen from '../redux/containers/othersTodos'
 
 const { SIGN, MYTODOS, MAIN, OTHERSTODOS, CREATETODO} = screens
 
@@ -16,7 +19,7 @@ export default () =>
   },
   {
     name: CREATETODO,
-    component: SignScreen,
+    component: CreateTodosScreen,
   },
   {
     name: MAIN,
@@ -24,14 +27,14 @@ export default () =>
     tabs: [  
       {
         name: MYTODOS,  
-        component: SignScreen, 
+        component: MyTodosScreen, 
         icon: 'search', 
         iconColor: 'blue', 
         iconSize: 50, 
       },
       {
         name: OTHERSTODOS,
-        component: SignScreen,
+        component: OtherTodosScreen,
         icon: 'insert-chart'
       },
     ],

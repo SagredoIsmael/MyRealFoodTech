@@ -1,6 +1,6 @@
 import { connect } from "react-redux"
 import { compose } from 'redux'
-import Sign from '../../screens/Sign'
+import MyTodos from '../../screens/MyTodos'
 
 
 const mapStateToProps = state => (
@@ -18,4 +18,4 @@ export default compose(
         mapStateToProps,
         mapDispatchToProps
     )
-)(Sign) 
+)(MyTodos) 
